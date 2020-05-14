@@ -17,8 +17,10 @@
 17. [Unión de Tipos, Alias y Tipos Literales](src/type-union.ts)
 18. [Aserciones de tipo](src/type-assert.ts)
 19. [Interfaces](src/interfaces.ts)
-20. [Interfaces](src/interfaces.ts)
-21. [Interfaces: propiedades opcionales](src/interfaces.ts)
-22. [Herencia de interfaces](src/herencia-interfaces.ts)
-
+20. [Interfaces: propiedades opcionales](src/interfaces.ts)
+21. [Herencia de interfaces](src/herencia-interfaces.ts)
+22. [Clases](src/clases.ts)
+23. [Clases públicas y privadas](src/clases-private.ts)
+23. [Clases privadas en ecmascript](src/clases-private-ecmascript.ts)
+23. [Métodos Get y Set](src/clases-get-set.ts)
 
