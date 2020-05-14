@@ -1,1 +1,4 @@
 dist
+node_modules/
+photo-app/node_modules/
+photo-app/node_modules/arr-diff/index.js

@@ -26,3 +26,20 @@
 26. [Herencia de clases y propiedades estáticas](types-ts/src/clases-herencia.ts)
 27. [Clase abstracta](types-ts/src/clases-herencia.ts)
 28. [Import y export en TS](photo-app/src/main.ts)
+29. Resolviendo módulos
+    
+    `tsc --moduleResolution node` -> Modulos AMD, System, ES2015, poco configurable
+
+    `tsc --moduleResolution classic`-> node: Modulos CommonJs o UMD, mas opciones de configuración en tsconfig.json
+    ```
+    "moduleResolution": "node|classic"
+    "traceResolution":true 
+    ```
+29. Webpack y agrupación de Módulos
+    Webpack --> empaquetador de modulos
+    ```
+    npm init -y
+    npm install typescript webpack webpack-cli --save-dev
+    npm install ts-loader --save-dev
+    npm run build 
+    ```
